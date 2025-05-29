@@ -1,0 +1,9 @@
+{
+	"name": "azureritiadf",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea39432d-dbd1-4ddc-89bc-1a0959fcd3c6",
+		"tenantId": "cc0da73a-9439-42f2-b03a-2815c092b724"
+	}
+}

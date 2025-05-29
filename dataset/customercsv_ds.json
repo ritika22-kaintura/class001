@@ -1,0 +1,25 @@
+{
+	"name": "customercsv_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsg2_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Customer.csv",
+				"folderPath": "ritisqlserver/AdventureWorks/Customer/Year=2025/Month=5/Day=21",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
